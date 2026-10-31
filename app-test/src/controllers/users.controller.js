@@ -16,9 +16,6 @@ export const getUsers = (req, res) => {
 
     cambio 3
 
-
-
-
   */
   res.json(users);
 };
