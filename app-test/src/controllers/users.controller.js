@@ -3,7 +3,6 @@ import users from '../data/users.js';
 // GET /api/users
 export const getUsers = (req, res) => {
 
-
   /*
 
     cambio 1
@@ -20,6 +19,7 @@ export const getUsers = (req, res) => {
     cambio 5
 
   */
+
   res.json(users);
 };
 
