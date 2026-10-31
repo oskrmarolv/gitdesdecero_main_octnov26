@@ -1,4 +1,14 @@
 // Datos ficticios: no hay validación real de credenciales
+
+/*
+
+  cambio 4
+  cambio 4
+
+  cambio 4
+
+*/
+
 export const login = (req, res) => {
   const { email, password } = req.body ?? {};
 
