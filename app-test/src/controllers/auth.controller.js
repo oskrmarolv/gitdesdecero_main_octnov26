@@ -5,11 +5,7 @@
   cambio 4
   cambio 4
 
-  cambio 6
-
   cambio 4
-
-  cambio 6
 
 */
 
