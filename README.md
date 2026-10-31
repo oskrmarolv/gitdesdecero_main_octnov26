@@ -2,7 +2,6 @@
 
 Primer archivo en el respositorio. Es "best-practice" crear un archivo `README` en cada repositorio.
 
-
 ## Lista de comandos
 
 * git-init
