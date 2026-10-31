@@ -2,6 +2,20 @@ import users from '../data/users.js';
 
 // GET /api/users
 export const getUsers = (req, res) => {
+
+
+  /*
+    cambio 1
+
+
+
+
+
+
+
+
+
+  */
   res.json(users);
 };
 
