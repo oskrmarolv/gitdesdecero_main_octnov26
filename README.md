@@ -4,25 +4,30 @@ Primer archivo en el respositorio. Es "best-practice" crear un archivo `README` 
 
 ## Lista de comandos
 
+### Basicos
 * git-init
 * git-config
 * git-add
 * git-commit
 * git-log
 * git-status
-
-Proximos:
 * git-branch
 * git-switch
 * git-checkout
+
+### Repositorio remoto
+
 * git-remote
+* git-fetch
+* git-pull
+* git-push
+
+### Regresion de cambios
+
+* git-restore
+* git-reset
+* git-revert
+
+### Comparacion de cambios
 * git-diff
 * git-show
-
-## Best Practices
-
-* Definir nomeclaturas claras que todos los desarrolladores deben implementar
-  * nombres para las ramas
-  * estructura de los commit's
-* Siempre definir un archivo README.md (Sugerencia de notacion con Markdown)
-* Siempre definir los valores de configuracion locales al repositorio
