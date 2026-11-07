@@ -5,7 +5,14 @@
 Cambio A...
 
 
+<<<<<<< HEAD
 Cambio BASE (cherry-pick)
+
+Cambio B (tg-001-secundaria)
+
+
+Cambio B...
+
 
 Cambio C...
 
