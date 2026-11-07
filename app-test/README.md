@@ -2,7 +2,7 @@
 
 ---
 
-
+Este es un texto descriptivo importante
 
 ---
 
