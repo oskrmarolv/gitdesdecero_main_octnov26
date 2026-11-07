@@ -1,3 +1,11 @@
 # .gitignore
 
-temporal.log
+# Omitiendo un archivo en espocifico
+# temporal.log
+
+# Cualquier archivo que termine en .log
+# *.log
+
+# omitiendo directorios
+packages/
+# ./packages
