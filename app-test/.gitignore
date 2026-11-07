@@ -7,6 +7,12 @@ node_modules/
 # Logs
 logs/
 *.log
+
+
+# npm-debug.log.txt
+# npm-debug.log.001
+# npm-debug.log.main
+# npm-debug.log-principal.rtxt.m
 npm-debug.log*
 
 # Sistema operativo / editores
