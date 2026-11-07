@@ -1,5 +1,29 @@
 # App Test: API de ejemplo con Express.js
 
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 Aplicación de prueba para el curso **GIT desde Cero**. Es una API REST sencilla construida con [Express.js](https://expressjs.com/) que sirve como base de código para practicar los comandos de Git (commits, ramas, merges, conflictos, etc.).
 
 > **Nota:** la aplicación **no usa base de datos**. Todas las rutas devuelven datos ficticios y ningún cambio se guarda entre peticiones.
