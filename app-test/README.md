@@ -4,6 +4,8 @@
 
 Este es un texto descriptivo importante
 
+Se realizan pruebas....
+
 ---
 
 Aplicación de prueba para el curso **GIT desde Cero**. Es una API REST sencilla construida con [Express.js](https://expressjs.com/) que sirve como base de código para practicar los comandos de Git (commits, ramas, merges, conflictos, etc.).
