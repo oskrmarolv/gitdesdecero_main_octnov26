@@ -3,19 +3,6 @@ import users from '../data/users.js';
 // GET /api/users
 export const getUsers = (req, res) => {
 
-  /*
-
-    cambio 1
-
-    cambio 5
-
-    cambio 2
-    cambio 2
-
-    cambio 5
-
-  */
-
   res.json(users);
 };
 
