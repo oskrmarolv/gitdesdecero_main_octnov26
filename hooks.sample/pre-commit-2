@@ -1,0 +1,19 @@
+#!/bin/bash -
+
+# Los hooks basicamente tienen esta estructura
+#if  [ condicion ]; then
+#  exit 0        # mensaje de error: success
+#else
+#  exit -1       # mensaje de error: failure
+#fi
+
+echo -e "Iniciando validacion mediante hook: pre-commit"
+echo -e "\n\n"
+git diff --cached --check
+
+if [ $? -ne 0 ]; then
+  echo -e "\n\n\t⚠️ No es posible realizar el commit: existen espacio en blanco innecesarios"
+  exit -1
+fi
+
+exit 0
