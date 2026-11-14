@@ -1,0 +1,25 @@
+#!/bin/bash -
+
+# Los hooks basicamente tienen esta estructura
+#if  [ condicion ]; then
+#  exit 0        # mensaje de error: success
+#else
+#  exit -1       # mensaje de error: failure
+#fi
+
+echo "Iniciando validacion mediante hook: pre-commit"
+
+DAY_DATE=$(date +%-d)
+echo " + Dia: $DAY_DATE"
+
+if [ "$DAY_DATE" -eq "15" ]; then
+  echo " ⚠️ Los dias 14 NO SE PUEDE hacer commits..."
+  sleep 10
+
+  exit -1
+else
+  echo " ✅ Hoy si se puede hacer commits..."
+  sleep 10
+
+  exit 0
+fi
